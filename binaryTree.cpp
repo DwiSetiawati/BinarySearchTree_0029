@@ -136,4 +136,10 @@ public:
         postorder(ptr->rightchild);
         cout << ptr->info << " ";
     }
+
+    bool isEmpty()
+    {
+        // checks if the tree is empty
+        return ROOT == nullptr;
+    }
 };
